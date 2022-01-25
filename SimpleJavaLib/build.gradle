@@ -3,8 +3,8 @@ plugins {
     id 'maven-publish'
 }
 
-//group='com.github.wengz'
-//version = '1.0'
+group='com.github.wengz'
+version = '1.0'
 
 java {
     sourceCompatibility = JavaVersion.VERSION_1_7
