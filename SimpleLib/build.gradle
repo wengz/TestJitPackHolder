@@ -2,8 +2,8 @@ plugins {
     id 'com.android.library'
     id 'maven-publish'
 }
-group='com.github.wengz'
-version = '1.0'
+//group='com.github.wengz'
+//version = '1.0'
 
 android {
     compileSdk 32
@@ -44,10 +44,10 @@ afterEvaluate {
         publications {
             // Creates a Maven publication called "release".
             release(MavenPublication) {
-                from components.release
+                //from components.release
                 groupId = 'com.github.wengz'
                 artifactId = 'TestJitPackHolder'
-                version = '1.0'
+                version = '2.0'
             }
         }
     }
